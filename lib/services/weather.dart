@@ -1,7 +1,7 @@
 import 'package:weather/services/location.dart';
 import 'package:weather/services/network.dart';
 
-const apikey = '6714c703d67f69f5dc75ae0dfcdedbdd';
+const apikey = 'user your key';
 const openWeatherMapURL =
     // 'https://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=07ed9e358bc348db9d1cf4301f477ac8';
     'https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&exclude={part}&appid=$apikey';
